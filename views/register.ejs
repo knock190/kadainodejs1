@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>新規登録</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>新規登録</h1>
+    <form action="/register" method="POST">
+      <label for="username">お名前:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">新規登録</button>
+    </form>
+    <p>登録済みですか？ <a href="/login">ログイン画面へ</a></p>
+  </div>
+</body>
+</html>
